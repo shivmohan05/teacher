@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto;
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Visible, high-contrast focus ring for keyboard navigation (not color-only). */
+:focus-visible {
+  outline: 3px solid #0F9B8E;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: #1E3A5F;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 0 0 10px 0;
+}
+
+.skip-link:focus {
+  left: 0;
+}

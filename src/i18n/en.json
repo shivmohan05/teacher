@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "howItWorks": "How It Works",
+    "boards": "Boards",
+    "classes": "Classes",
+    "subjects": "Subjects",
+    "cuet": "CUET Prep",
+    "safety": "Safety",
+    "login": "Log in",
+    "register": "Get started free"
+  },
+  "home": {
+    "eyebrowless_headline": "Your subject, your board, your language.",
+    "subhead": "Chapter-wise lessons in Hindi and English for Class 1 to 12 — built around CBSE, ICSE, ISC, HSE and State Board syllabi, with a dedicated CUET track.",
+    "ctaPrimary": "Start learning free",
+    "ctaSecondary": "See how it works",
+    "demoNoticeTitle": "This is a working demo",
+    "demoNoticeBody": "Lessons and quizzes shown here are original demonstration content. Always verify against your official syllabus and textbook.",
+    "boardsHeading": "Built around the board you actually study",
+    "languageHeading": "Switch languages without losing your place",
+    "languageBody": "Flip between Hindi and English mid-lesson. Your progress, bookmarks and quiz history stay exactly where you left them.",
+    "safetyHeading": "Designed for children, reviewed for safety",
+    "safetyBody": "No public profiles, no student chat, no ads, no behavioural tracking. Every AI reply can be reported in one tap."
+  },
+  "footer": {
+    "rights": "Built as an educational demonstration platform.",
+    "legalNote": "Privacy, Terms and consent flows are technical prototypes pending legal review."
+  }
+}
